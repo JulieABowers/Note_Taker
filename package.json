@@ -1,14 +1,18 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "App for taking notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
   },
-  "author": "",
+  "author": "Julie Bowers",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
