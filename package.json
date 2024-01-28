@@ -9,7 +9,7 @@
     "watch": "nodemon server.js"
   },
   "author": "Julie Bowers",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "uuid": "^9.0.1"
