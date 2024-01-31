@@ -37,4 +37,23 @@ notes.post('/', (req, res) => {
     res.error('Note not created');
   }
 });
+
+notes.delete('/:id', function(req, res) {
+  // Gets id number of note to delete
+  const noteId = req.params.id;
+  
+  readFromFile(dbDestination)
+    .then((data) => JSON.parse(data))
+    .then((json) => {
+      // Make a new array of all tips except the one with the ID provided in the URL
+      const result = json.filter((note) => note.id != noteId);
+      
+      // Save that array to the filesystem
+      writeToFile(dbDestination, result);
+
+      // Respond to the DELETE request
+      res.json(`Item ${noteId} has been deleted ???`);
+    });
+});
+
 module.exports = notes;
