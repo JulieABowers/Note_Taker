@@ -47,3 +47,9 @@ If you have any questions, contact the developer at:
 - GitHub: [JulieABowers](https://github.com/JulieABowers)
 
 - Email: haldirolorien@comcast.net
+
+## Solution URL:
+[Deployed Site:](https://shielded-savannah-12539-3a877d35db1c.herokuapp.com/)
+[Repository Link:](https://github.com/JulieABowers/Logo-Maker.git)
+
+
