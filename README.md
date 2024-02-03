@@ -50,6 +50,6 @@ If you have any questions, contact the developer at:
 
 ## Solution URL:
 [Deployed Site:](https://shielded-savannah-12539-3a877d35db1c.herokuapp.com/)
-[Repository Link:](https://github.com/JulieABowers/Logo-Maker.git)
+[Repository Link:](https://github.com/JulieABowers/Note_Taker)
 
 
